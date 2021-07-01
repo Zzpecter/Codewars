@@ -1,5 +1,8 @@
 # Codewars
 
-Repository for uploading solved and WIP codewars KATAs 
+Repository for that collects personally solved codewars KATAs
+join here: www.codewars.com/r/PJCiFQ
 
-Each branch stores a different KATA
+Each branch stores a different difficulty level.
+8kyu(easiest)->1kyu(hardest)
+
