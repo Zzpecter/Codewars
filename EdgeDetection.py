@@ -32,6 +32,13 @@ def calculate_edge_map(image):
         row_edges = []
         for col_index, value in enumerate(row):
             edges = []
+            indexes = []
+            try:
+                edge = value - row[col_index - 1]
+                edges.append(edge if edge > 0 else edge * -1)
+            except IndexError:
+                pass
+
             if col_index > 0:
                 edge = value - row[col_index-1]
                 edges.append(edge if edge > 0 else edge*-1)
